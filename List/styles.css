@@ -1,0 +1,56 @@
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    /* Semi-transparent white background */
+    backdrop-filter: blur(10px);
+    /* Apply blur effect */
+    border-radius: 20px;
+    /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    /* Soft shadow */
+}
+
+input[type="text"] {
+    background: rgba(220, 220, 255, 0.3);
+    /* Semi-transparent light blue background */
+    border: none;
+    border-radius: 10px;
+    /* Rounded corners */
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    /* Soft shadow */
+}
+
+button {
+    background: rgba(150, 180, 255, 0.7);
+    /* Semi-transparent blue background */
+    border: none;
+    border-radius: 10px;
+    /* Rounded corners */
+    padding: 10px 20px;
+    margin-left: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    /* Soft shadow */
+}
+
+ul {
+    background: rgba(255, 255, 220, 0.5);
+    /* Semi-transparent light yellow background */
+    padding: 10px;
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    /* Soft shadow */
+}
+
+li {
+    background: rgba(255, 220, 220, 0.7);
+    /* Semi-transparent light red background */
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    /* Soft shadow */
+}
